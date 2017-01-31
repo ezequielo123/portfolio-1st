@@ -1,0 +1,6 @@
+/.idea
+/dev
+composer.lock
+*~
+*.swp
+/phploy.*
