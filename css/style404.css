@@ -2,21 +2,22 @@
   box-sizing: border-box;
 }
 body {
-  margin:0;
-  background-color: #CCCCCC;
-  padding-top: 10px;
-  font-family: 'Slabo 27px', serif;
-}
+  background: url('https://www.smashingmagazine.com/images/404-error-pages/wanted.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+}  
 
 .global {
   background-color: white;
-
+  border: 1px solid grey;
+  box-shadow: 2px 1px 2px 1px #888888;
 }
 .container-left {
   max-width: 800px;
   border-right: 1px solid grey;
   border-bottom: 1px solid grey;
 }
+
 .container-right {
   float: right;
   display: block;
@@ -26,16 +27,6 @@ body {
   padding-top: 10px;
   margin-right: 31px;
   border-left: 1px solid black;
-  padding-left: 8px;
-}
-#right-menu {
-  padding-bottom: 119px;
-  padding-top: 15px;
-  border-bottom: 1px solid black;
-}
-.space-between {
-  padding-bottom: 7px;
-  list-style: none;
 }
 
 .navbarSprite .nav a {
@@ -120,42 +111,6 @@ img.mylogo {
   height: auto;
 }
 
-.mypicture-small {
-  width: 45px;
-  height: 60px;
-}
-
-a.genre:hover {
-  text-decoration: none;
-}
-
-.mypicture2 {
-  float: left;
-  width: 250px;
-  height: 300px;
-  padding-right: 20px;
-}
-.mypicture-home {
-  width: 250px;
-  height: 300px;
-  padding-right: 25px;
-}
-
-.mypicture-born {
-  width: 180px;
-  height: 180px;
-  padding-right: 25px;
-  padding-left: 30px;
-}
-
-.mypicture-footer {
-  width: 60px;
-  height: 60px;
-}
-.caption {
-  padding-left: 35px;
-}
-
 img.mypicture:hover {
   border: 2px solid darkslategrey;
 }
@@ -173,4 +128,6 @@ input.button.submit {
 .spaces {
   padding-bottom: 15px;
 }
+
+
 
